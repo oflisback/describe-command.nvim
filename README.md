@@ -60,6 +60,9 @@ Apart from `openai_api_key_env_var` and `openai_api_key_command` a few more opti
     openai_model = "gpt-4o-mini-2024-07-18",
     openai_system_prompt = -- See lua/describe-command/config.lua,
 }
+
+Note that the model must support [structured output](https://openai.com/index/introducing-structured-outputs-in-the-api/).
+
 ```
 
 ### :keyboard: Commands
